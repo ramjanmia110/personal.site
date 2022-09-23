@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #D5D0CD;
+            
+        }
+        .container{
+            background-color: #E9B627;
+            width:450px;
+            height: 600px;
+            display:block;
+            margin: 0px auto;
+            margin-top: 25px;
+        }
+        input{
+            width:100%;
+            padding:3px 8px;
+            margin: 10px 0px;
+            border: 1px solid white;
+            background-color: #33559A;
+            color:aliceblue;
+            border-radius: 5px;
+        }
+      
+        label{
+            color:#33559A;
+            font-size: 16px;
+            font-weight: bolder;
+            margin:0px 5px;
+        }
+        #subject{
+            margin-top: 10px;
+            width: 50%;
+            background-color: #e65b5b;
+            color: #D5D0CD;
+            font-size: 14px;
+            text-align: center;
+            padding: 2px;
+            border:1px solid white;
+            border-radius: 10px;
+            margin-left: 20px;
+            margin-bottom: 20px;
+            
+        
+        }
+        #text-area{
+            resize: none;
+            display: block;
+            margin: 0 auto;
+            width: 70%;
+            background-color: beige;
+            border: 2px solid rgb(233, 110, 110);
+            border-radius: 10px;
+            text-align:start;
+            padding: 10px 10px;
+            font-size: 14px;
+            color:#e65b5b;
+            margin-bottom: 10px;
+            
+            
+        }
+        #submit{
+            width: 30%;
+            margin-top: 40px;
+            display: block;
+            margin: 0 auto;
+            background-color: #01A740;
+            color:#E7F5E2;
+            padding: 8px;
+            border: 1px solid white;
+            border-radius: 20px;
+            font-size: 16px;
+            font-family: sans-serif;
+            font-weight: bolder;
+            
+        }
+        #search{
+            width: 30%;
+            height: 
+            display: inline-block;
+            margin: 0 auto;
+            margin-top:8px; 
+            margin-left: 30%;
+            border-radius: 20px;
+            background-color: #D5D0CD;
+            color:#e65b5b;
+            background-image: url(search.png);
+            background-repeat: no-repeat;
+            padding:5px 40px;
+            font-weight:bolder;
+            font-size:13px;
+            color:green;
+            
+        
+            
+        }
+        #search:focus{
+            background-color: #986FB4;
+            color:white;
+            width: 65%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form>
+            <div>
+                <input type="text" name="search" id="search" placeholder="search">
+            </div>
+            <label for="fname">First Name</label>
+            <input type="text" name="fname" id="fname" placeholder="Enter Your First Name">
+
+            <label for="lname">Last Name</label>
+            <input type="text" name="lname" id="lname" placeholder="Enter Your Last Name">
+
+            <label for="password">Possward</label>
+            <input type="password" name="password" id="password" placeholder="Enter Your password">
+
+            <label for="mail">E-mail</label>
+            <input type="text" name="mail" id="mail" placeholder="Enter Your First Name">
+
+            
+            <div class="select">
+                <select name="subjcet_name" id="subject">
+                    <option value="html">HTML</option>
+                    <option value="css">CSS</option>
+                    <option value="java script">JAVA SCRIPT</option>
+                    <option value="jss">JSS</option>
+                    <option value="grafics design">GRAPHIC DESIGN</option>
+
+                </select>
+                <div class="text-area">
+                    <textarea name="" cols="30" rows="10" placeholder="write your comment" id="text-area">Write Your comment</textarea>
+
+                </div>
+                <div class="submit">
+                    <input type="button" value="submit" id="submit">
+    
+                </div>
+
+            </div>
+        </form>
+
+    </div>
+    
+</body>
+</html>

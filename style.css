@@ -1,0 +1,170 @@
+*{
+    padding:0;
+    margin: 0;
+}
+body{
+    background-color: #E6D9EB;
+    font-family: 'Gulzar', serif;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 1000px;
+    background-color:#062E43;
+    margin:0 auto;
+    padding:20px;
+   
+}
+.profile-image{
+    width:110px;
+    height:130;
+    border:3px solid white;
+    border-radius: 50%;
+    float:left;
+}
+.header-bio{
+    float:left;
+    padding:30px;
+
+}
+h1,h2,h3{
+    color:#6B89B3;
+    text-shadow:2px 1px whitesmoke;
+}
+
+
+h4{
+    color:#297bee;
+    font-weight: bold;
+    font: 1em sans-serif;
+    
+}
+h4:hover{
+    color:red;
+}
+h5,h6{
+    color:seagreen;
+    font-weight: bolder;
+    font: 1em sans-serif;
+}
+h5,h6:hover{
+    color:white;
+}
+
+.header-contact{
+    float:right;
+    padding:30px;
+   
+   
+}
+.style-com:hover{
+    color:tomato;
+}
+.header-contact a{
+    text-decoration: none;
+    color: #1DE3A6;
+    font-weight: bolder;
+    
+}
+.header-contact a:hover{
+    text-decoration: underline;
+    color:#D46B44;
+}
+.div-clear{
+    clear:both;
+}
+hr{
+    border:solid #18B67E 1px;
+    width:100%;
+    margin:30px auto;
+    boder-botton:none;
+    
+}
+.new-style:hover{
+    color:tomato;
+}
+.new-style1:hover{
+    color:yellow;
+}
+p{
+    color:#6B89B3;
+    font-weight: bold;
+    text-align: justify;
+    font: 1em sans-serif;
+    
+}
+/*...............................
+personal section start
+.................................*/
+#personal-section{
+
+}
+.content{
+    margin-bottom:30px;
+}
+.left-div{
+    width:20%;
+    float:left;
+}
+
+
+.right-div{
+    width:70%;
+    float:right;
+}
+.common-hr{
+    border: solid #18B67E 2px;;
+    border-bottom:none;
+    width:100%;
+    margin:20px auto;
+}
+.res:hover{
+    color:rgb(223, 124, 124);
+}
+.position:hover{
+    color:aqua;
+}
+/*...............................
+education section start
+.................................*/
+.edu-tempalete-left{
+    float:left;
+    width:45%;
+}
+.edu-tempalete-right{
+    float:right;
+    width:45%;
+}
+/*...............................
+footer section start
+.................................*/
+.bottom-container{
+    background-color: rgb(228, 165, 228);
+    text-align:center;
+    padding:10px;
+   }
+.bottom-container a{
+    color:blue;
+    text-decoration: none;
+    margin:20px;
+    font-weight:bold;
+  }
+.bottom-container p{
+    color:black;
+    margin-top:20px;
+    text-align:center;
+    font-weight: bold;
+    
+}
+.bottom-container a:hover{
+    color:green;
+    text-decoration: underline;
+}
+.motton-tv:hover{
+    color:red;
+}
+.ref-div:hover{
+    color:green;
+}
+.edu-div:hover{
+    color:thistle;
+}

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    
+    
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+       .container{
+        background-image: url(grafics.jpg);
+            background-size:cover;
+            background-position:center;
+            width: 100%;
+            height:100vh;
+       }
+       .logo-area{
+        width:30%
+       }
+       .logo-area a{
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        text-decoration: none;
+       }
+     
+       .logo-area a img{
+        width:80px;
+        position: absolute;
+        top:10px;
+        left:15px
+       }
+       .logo-area a h1{
+        color:#1E3520;
+        text-transform:uppercase;
+        font-family: lato;
+        font-size: 15px;
+        text-decoration: none;
+        position: absolute;
+        top:10px;
+        left: 8%;
+        
+          }
+         
+       
+       .info{
+        position: absolute;
+        top:20%;
+        left:15%;
+       }
+      .info h1{
+        color:#15A6DC;
+        text-align: center;
+        font-family: lato;
+        font-weight: bold;
+        font-size:50px;
+      }
+      .info h1:hover{
+        color:green;
+      }
+      .info p{
+        color:#805A97;
+        font-family:lato;
+        font-size: 1.5rem;
+        text-align: center;
+        font-weight:bold;
+      }
+      .info p:hover{
+        color:red;
+      }
+      .btn button{
+        position: absolute;
+        top:70%;
+        left:38%;
+        padding: 20px 40px;
+        background: transparent;
+        border:3px solid blue;
+        color:#2D49F8;
+        font-size:25px;
+        font-family:lato;
+        font-weight: bold;
+        border-radius: 20px;
+        cursor:pointer;
+      
+
+      }
+      .btn button:hover{
+        background-color: #FCCC60;
+        color:#279EA3;
+      }
+     
+      
+      
+       
+        .navbar{
+            background-color:#FC5B69 ;
+            padding:1% 7%;
+            text-align: center;
+            
+            
+           
+        }
+    
+        .navbar a{
+           
+            text-decoration: none;
+            color:#e8eef0;
+            font-size:1rem;
+            padding:10px 10px;
+            cursor:pointer;
+            font-weight:bold;
+           
+          
+        }
+        .navbar a:hover{
+            color:#FCCC60;
+           
+        }
+        .dropdown-container{
+            display: inline;
+            position: relative;
+        }
+        .dropdown-contain{
+            position: absolute;
+            top:30px;
+            right:0px;
+            background-color: #FC5B69;
+            text-align:left;
+            min-width:100px;
+            font-size: 2rem;
+            display: none;
+
+        }
+        .dropdown-contain a {
+            display:block;
+            
+        }
+        .dropdown-contain a:hover{
+            background-color: #2774EF;
+            color:#C9E2E1;
+            
+        }
+       .dropdown-container:hover .dropdown-contain{
+        display: block;
+       
+       }
+
+       
+      
+       
+        
+       
+       
+      
+       
+        
+     
+       
+     
+      
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            <div class="logo-area">
+                <a href="#">
+                    <img src="MY LOGO 6.png" alt="logo">
+                    <h1>Creative Graphic Design</h1>
+                </a>
+
+            </div>
+            <div class="info">
+                <h1>CREATIVE GRAPHIC DESIGN</h1>
+                <P>According to the American Institute of Graphic Arts (AIGA), graphic design is defined as “the art and practice of planning and projecting ideas and experiences with visual and textual content.” In other terms, graphic design communicates certain ideas or messages in a visual way.</P>
+
+            </div>
+            <div class="btn">
+                <button>GET AN ADMISSION</button>
+
+            </div>
+            <div class="navbar">
+                <a href="http://127.0.0.1:5500/mysite.html">Home</a>
+                <a href="#">Tutorial</a>
+                <a href="#">Course</a>
+                <a href="ramjancv.html">My Profile</a>
+                <a href="#">Aplication Form</a>
+                <a href="#">Service</a>
+                <a href="#">Login</a>
+                <div class="dropdown-container">
+                    <a href="#">Contact Me</a>
+                    <div class="dropdown-contain">
+                        <a href="https://www.facebook.com/">Facebook</a>
+                        <a href="https://mail.google.com/mail/u/0/#inbox">E-mail</a>
+                        <a href="https://twitter.com/i/flow/login">Twiter</a>
+                        <a href="https://twitter.com/skype">Skype</a>
+        
+                    </div>
+                   
+
+        </div>
+
+    </div>
+
+      
+        
+       
+</body>
+</html>

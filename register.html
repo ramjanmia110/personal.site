@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding:0px;
+            margin: 0px;
+        }
+        body{
+            background-color: tomato;
+            font-family:'Times New Roman', Times, serif;
+            font-size: 20px;
+            display: flex;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+
+        }
+        .register-now{
+            width:330px;
+            height:500px;
+            padding:30px;
+            border:5px solid green;
+            border-radius: 10px;
+            outline: none;
+            background:goldenrod;
+        }
+        .top-reg {
+            color:white;
+            text-align: center;
+            font-weight: bold;
+            font-family: lato;
+            font-size:50px;
+           
+        }
+        .input-style{
+            margin-top: 10px;
+            
+        }
+        .input-style input{
+            width: 90%;
+            background: transparent;
+            padding:3px;
+            border: 2px solid white;
+            border-radius: 5px;
+            color:white;
+            outline: none;
+            height:15px;
+            margin-bottom: 10px;
+
+
+        }
+        .input-style label{
+            color:blue;
+            margin-bottom: 4px;
+            display: block;
+            font-size: 15px;
+            padding:1px;
+            cursor: pointer;
+        }
+        .option{
+            margin-top:6px;
+        }
+        .option label{
+            color:aquamarine;
+            cursor: pointer;
+        }
+        .register-page input{
+            width: 90%;
+            margin-top: 10px;
+            padding: 10px;
+            background: red;
+            outline:none;
+            border-radius: 10px;
+            color:white;
+            boder:none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+   <div class="register-now">
+    <form>
+        <h1 class="top-reg">LOGIN</h1>
+        <div class="input-style">
+            <label for="a">First Name</label>
+            <input type="text" name="name" placeholder="Enter Your Name" id="a"/> 
+            <label for="b">Last Name</label>
+            <input type="text" name="name" placeholder="Enter Your Last Name" id="b"/>
+            <label for="c">Email</label>
+            <input type="email" name="email" placeholder="Enter Your Email" id="c"/>
+            <label for="d">Phone Number</label>
+            <input type="text" name="number" placeholder="Enter Your Phone Number" id="d"/>
+            <label for="e">Your Password</label>
+            <input type="password" name="password" placeholder="Enter Your password" id="e"/>
+            <label for="f">Confirm Password</label>
+            <input type="password" name="password" placeholder="Enter Your confirm password" id="b"/>
+            </div>
+            <div class="gender">
+              
+                <p>Gender</p>
+                <div class="option">
+                  <input id="aa" name="jamal" type="radio" />
+                  <label for="aa">Male</label>
+
+                  <input id="bb" name="jamal" type="radio" />
+                  <label for="bb">Female</label>
+
+                  <input id="cc" name="jamal" type="radio" />
+                  <label for="cc">Other</label>
+                  
+                  </div>
+                  </div>
+              
+
+            
+            <div class="register-page">
+                <input type="submit" value="Login"/>
+            </div>
+      
+
+
+       
+    </form>
+
+ </div>
+</body>
+</html>
